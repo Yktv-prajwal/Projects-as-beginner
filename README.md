@@ -35,3 +35,36 @@ This is a simple Python number guessing game for beginners. The program generate
 • Variables
 • Conditional statements (`if-else`)
 • Output using `print()`
+
+# Number Guessing Game with 3 Attempts
+
+## Description
+This Python program is a simple number guessing game where the computer randomly selects a number between 1 and 10. The player gets three chances to guess the correct number. After each incorrect guess, the program provides a hint by telling the player whether the correct number is higher or lower than their guess. If the player guesses the number within three attempts, they win; otherwise, they lose, and the correct number is revealed at the end.
+
+## Features
+• Generates a random number between 1 and 10.
+• Gives the player 3 chances to guess the number.
+• Provides "Higher" or "Lower" hints after each wrong guess.
+• Ends the game immediately when the correct number is guessed.
+• Displays the correct number if the player loses.
+• Beginner-friendly project for learning Python fundamentals.
+
+## Concepts Used
+• Python `random` module
+• Random number generation using `randint()`
+• `for` loop
+• `if`, `elif`, and `else` conditional statements
+• User input with `input()`
+• Type casting using `int()`
+• `break` statement
+• `for-else` loop
+• Variables and program flow control
+
+## Working
+1. The computer generates a random number between 1 and 10.
+2. The player has three attempts to guess the number.
+3. After each incorrect guess, a hint is provided:
+   - "Higher" if the guessed number is too low.
+   - "Lower" if the guessed number is too high.
+4. If the player guesses correctly, the game displays a winning message and ends.
+5. If all three attempts are used without guessing correctly, the game displays a losing message along with the correct number.
