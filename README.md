@@ -69,7 +69,7 @@ This Python program is a simple number guessing game where the computer randomly
 4. If the player guesses correctly, the game displays a winning message and ends.
 5. If all three attempts are used without guessing correctly, the game displays a losing message along with the correct number.
 
-#4. Stone, Paper, Scissor Game in Python
+# 4.Stone, Paper, Scissor Game in Python
 
 ## Description
 This Python program is a simple Stone, Paper, Scissor game where the player competes against the computer. The player selects either Stone, Paper, or Scissor by entering a number between 1 and 3, while the computer randomly chooses one of the three options. The program compares both choices according to the game rules and declares the winner. If both choices are the same, the game ends in a tie.
