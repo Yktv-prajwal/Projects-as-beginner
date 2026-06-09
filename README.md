@@ -68,3 +68,39 @@ This Python program is a simple number guessing game where the computer randomly
    - "Lower" if the guessed number is too high.
 4. If the player guesses correctly, the game displays a winning message and ends.
 5. If all three attempts are used without guessing correctly, the game displays a losing message along with the correct number.
+
+#4. Stone, Paper, Scissor Game in Python
+
+## Description
+This Python program is a simple Stone, Paper, Scissor game where the player competes against the computer. The player selects either Stone, Paper, or Scissor by entering a number between 1 and 3, while the computer randomly chooses one of the three options. The program compares both choices according to the game rules and declares the winner. If both choices are the same, the game ends in a tie.
+
+## Features
+• User selects Stone, Paper, or Scissor using numbers.
+• Computer randomly generates its choice.
+• Displays both the user's and computer's choices.
+• Determines the winner based on the game rules.
+• Handles invalid user input.
+• Beginner-friendly project for learning Python basics.
+
+## Concepts Used
+• Python `random` module
+• `random.choice()` function
+• User input with `input()`
+• Type casting using `int()`
+• Lists
+• Variables
+• `if`, `elif`, and `else` conditional statements
+• Logical operators (`and`, `or`)
+• Program termination using `exit()`
+
+## Working
+1. The program displays three choices: Stone, Paper, and Scissor.
+2. The user enters a number between 1 and 3 to select a choice.
+3. The computer randomly selects one of the three options.
+4. The program displays both the user's and computer's choices.
+5. The winner is determined using the following rules:
+   - Stone beats Scissor.
+   - Paper beats Stone.
+   - Scissor beats Paper.
+   - If both choices are the same, the game is a tie.
+6. The program announces whether the user wins, the computer wins, or the game ends in a tie.
