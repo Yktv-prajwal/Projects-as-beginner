@@ -147,3 +147,54 @@ else:
     print(a, "is ODD Number")
 ```
 This correctly classifies every integer as either even or odd.
+
+# 6.Student Grade Calculator in Python
+
+## Description
+This Python program calculates a student's grade based on the marks entered by the user. The program uses conditional statements (`if-elif-else`) to compare the entered marks with predefined grading criteria and displays the corresponding grade. If the marks are below the passing criteria, the program indicates that the student has failed.
+
+## Features
+• Accepts marks as user input.
+• Assigns grades based on predefined ranges.
+• Displays the student's grade along with the obtained marks.
+• Identifies failing marks.
+• Beginner-friendly project for learning Python decision-making.
+
+## Concepts Used
+• User input with `input()`
+• Type casting using `int()`
+• Variables
+• `if`, `elif`, and `else` statements
+• Comparison operators (`>=`, `<=`)
+• Logical operators (`and`)
+• Output using `print()`
+
+## Working
+1. The user enters their marks.
+2. The program compares the marks with the grading criteria.
+3. Based on the marks, an appropriate grade is assigned:
+   - 90–100 : A+
+   - 80–89  : A
+   - 70–79  : B+
+   - 60–69  : B
+   - 50–59  : C+
+   - 40–49  : C
+   - Below 40 : Fail
+4. The corresponding grade and marks are displayed.
+
+## Note
+The first condition in the code:
+```python
+if a >= 90 and a == 100:
+```
+only accepts exactly 100 for an A+ grade.
+
+A better condition is:
+```python
+if a >= 90 and a <= 100:
+```
+or simply:
+```python
+if 90 <= a <= 100:
+```
+This correctly awards an A+ grade for marks between 90 and 100.
