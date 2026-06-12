@@ -198,3 +198,49 @@ or simply:
 if 90 <= a <= 100:
 ```
 This correctly awards an A+ grade for marks between 90 and 100.
+
+# 7.Contact Book in Python
+
+## Description
+This Python program is a simple Contact Book that allows users to store and display contact information. The user specifies how many contacts they want to add, then enters the name and phone number for each contact. The program stores the details in a list and finally displays all saved contacts.
+
+## Features
+• Allows users to add multiple contacts.
+• Stores contact names and phone numbers.
+• Displays all saved contacts in a readable format.
+• Beginner-friendly project for learning Python data structures.
+• Demonstrates the use of loops, lists, and user input.
+
+## Concepts Used
+• User input using `input()`
+• Type casting with `int()`
+• Lists and nested lists
+• `for` loops
+• Variables
+• List methods (`append()`)
+• Output using `print()`
+
+## Working
+1. The user enters the number of contacts to save.
+2. The program asks for the contact's name and phone number.
+3. Each contact is stored as a list containing the name and number.
+4. The process repeats until all contacts are added.
+5. The program displays all stored contacts.
+
+## Note
+The current code contains a small error:
+```python
+number = input("Enter Number of the Contact: ").len(10)
+```
+The `len()` method cannot be used this way.
+
+A correct approach is:
+```python
+number = input("Enter Number of the Contact: ")
+
+if len(number) == 10:
+    Contact.append([name, number])
+else:
+    print("Invalid Contact Number")
+```
+This checks whether the entered phone number contains exactly 10 digits before storing it.
