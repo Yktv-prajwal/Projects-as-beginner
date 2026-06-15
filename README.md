@@ -244,3 +244,61 @@ else:
     print("Invalid Contact Number")
 ```
 This checks whether the entered phone number contains exactly 10 digits before storing it.
+
+# 8.Unit Converter in Python
+
+## Description
+This Python program is a simple Unit Converter that allows users to convert values between commonly used measurement units. The program greets the user, displays a menu of conversion options, accepts the user's choice and input value, performs the selected conversion, and displays the result. It is a beginner-friendly project that demonstrates the use of conditional statements, arithmetic operations, and user interaction.
+
+## Features
+• Personalized welcome message.
+• Supports multiple unit conversions.
+• Converts distance, weight, and volume units.
+• Easy-to-use menu-driven interface.
+• Handles invalid menu choices.
+• Beginner-friendly Python project.
+
+## Supported Conversions
+• Kilometers (KM) to Meters (M)
+• Meters (M) to Kilometers (KM)
+• Kilograms (KG) to Grams (G)
+• Grams (G) to Kilograms (KG)
+• Liters (L) to Milliliters (ML)
+• Milliliters (ML) to Liters (L)
+
+## Concepts Used
+• User input using `input()`
+• Type casting with `int()` and `float()`
+• String methods (`upper()`)
+• Variables
+• Arithmetic operations
+• Conditional statements (`if-elif-else`)
+• Formatted output using `print()`
+
+## Working
+1. The user enters their name.
+2. The program displays a welcome message and a list of available conversions.
+3. The user selects a conversion option.
+4. The user enters the value to convert.
+5. The program performs the selected calculation.
+6. The converted value is displayed.
+7. The program thanks the user for using the Unit Converter.
+
+## Available Conversion Formulas
+• KM to M   : Value × 1000
+• M to KM   : Value ÷ 1000
+• KG to G   : Value × 1000
+• G to KG   : Value ÷ 1000
+• L to ML   : Value × 1000
+• ML to L   : Value ÷ 1000
+
+## Learning Outcomes
+This project helps beginners understand:
+• Menu-driven programming.
+• Conditional logic using `if-elif-else`.
+• Unit conversion calculations.
+• Taking and processing user input.
+• Building interactive command-line applications.
+
+## Project Objective
+The main objective of this project is to provide a simple and interactive tool for converting common units of distance, weight, and volume while helping beginners practice fundamental Python programming concepts.
