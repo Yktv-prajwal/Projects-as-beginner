@@ -1,0 +1,13 @@
+from datetime import date
+
+wel = input("Enter Your Name : ")
+
+print(f"----- Welcome {wel}!!! -----")
+
+birth_year = int(input("Enter Birth Year: "))
+
+current_year = date.today().year
+
+age = current_year - birth_year
+
+print(f"{wel} Your Age is:", age)
