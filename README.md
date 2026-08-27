@@ -291,14 +291,3 @@ This Python program is a simple Unit Converter that allows users to convert valu
 • G to KG   : Value ÷ 1000
 • L to ML   : Value × 1000
 • ML to L   : Value ÷ 1000
-
-## Learning Outcomes
-This project helps beginners understand:
-• Menu-driven programming.
-• Conditional logic using `if-elif-else`.
-• Unit conversion calculations.
-• Taking and processing user input.
-• Building interactive command-line applications.
-
-## Project Objective
-The main objective of this project is to provide a simple and interactive tool for converting common units of distance, weight, and volume while helping beginners practice fundamental Python programming concepts.
