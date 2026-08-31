@@ -282,7 +282,6 @@ This Python program is a simple Unit Converter that allows users to convert valu
 4. The user enters the value to convert.
 5. The program performs the selected calculation.
 6. The converted value is displayed.
-7. The program thanks the user for using the Unit Converter.
 
 ## Available Conversion Formulas
 • KM to M   : Value × 1000
