@@ -216,7 +216,6 @@ This Python program is a simple Contact Book that allows users to store and disp
 • Type casting with `int()`
 • Lists and nested lists
 • `for` loops
-• Variables
 • List methods (`append()`)
 • Output using `print()`
 
